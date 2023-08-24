@@ -1,13 +1,9 @@
-import { FC, ReactNode } from 'react'
+import { FC } from 'react'
 import styles from './Layout.module.scss'
 import Navigation from './Navigation/Navigation'
 import Sidebar from './Sidebar/Sidebar'
 
-interface MyProps {
-	children?: ReactNode
-}
-
-const Layout: FC = ({ children }: MyProps) => {
+export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<div className={styles.layout}>
 			<Navigation />
@@ -16,5 +12,3 @@ const Layout: FC = ({ children }: MyProps) => {
 		</div>
 	)
 }
-
-export default Layout
