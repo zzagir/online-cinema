@@ -18,7 +18,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": "./app/",
+    "baseUrl": "./assets/",
     "paths": {
       "@/components/*": [
         "components/*"
@@ -49,6 +49,10 @@
       ],
       "@/store/*": [
         "store/*"
+      ]
+      ,
+      "@/images/*": [
+        "images/*"
       ]
     },
     "plugins": [

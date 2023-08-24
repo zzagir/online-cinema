@@ -1,16 +1,10 @@
-import type { Config } from 'tailwindcss'
-
 const colors = require('tailwindcss/colors')
 const plugin = require('tailwindcss/plugin')
 
 const primary = '#E30B13'
 
-const config: Config = {
-	content: [
-		'./pages/**/*.{js,ts,jsx,tsx}',
-		'./app/components/**/*.{js,ts,jsx,tsx}',
-		'./app/*.{js,ts,jsx,tsx}',
-	],
+module.exports = {
+	content: ['./assets/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		colors: {
 			primary,
@@ -135,4 +129,3 @@ const config: Config = {
 		}),
 	],
 }
-export default config
