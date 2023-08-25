@@ -1,15 +1,8 @@
 'use client'
 
 import Layout from '@/components/layout/Layout'
-import { QueryClient, QueryClientProvider } from 'react-query'
-
-const queryClient = new QueryClient({
-	defaultOptions: {
-		queries: {
-			refetchOnWindowFocus: false,
-		},
-	},
-})
+import { QueryClientProvider } from 'react-query'
+import { queryClient } from './queryClient'
 
 export default function MainProvider({
 	children,
