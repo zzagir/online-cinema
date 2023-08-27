@@ -1,5 +1,3 @@
-'use client'
-
 import { FC } from 'react'
 import styles from './Search.module.scss'
 import { useSearch } from './useSearch'
