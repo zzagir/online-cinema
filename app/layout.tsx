@@ -1,9 +1,6 @@
-'use client'
-
 import './globals.scss'
 import type { Metadata } from 'next'
 import MainProvider from 'providers/MainProvider/MainProvider'
-import NextNProgress from 'nextjs-progressbar'
 
 export const metadata: Metadata = {
 	title: 'Create Next App',

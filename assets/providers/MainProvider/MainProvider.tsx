@@ -1,3 +1,5 @@
+'use client'
+
 import Layout from '@/components/layout/Layout'
 import { QueryClientProvider } from 'react-query'
 import { queryClient } from './queryClient'
